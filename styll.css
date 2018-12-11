@@ -1,0 +1,160 @@
+body{
+	background-image: url(fon3.jpg);
+}
+
+body, html {
+margin:0px;
+padding:0px;
+height: 100%;
+width: 100%;
+}
+nav ul { 
+list-style: none; 
+margin: 0; 
+padding: 0; 
+} 
+
+nav a { 
+text-decoration: none; 
+outline: none; 
+display: block; 
+} 
+
+.topmenu { 
+background: rgba(223, 97, 242, 0.3); 
+} 
+.topmenu > li { 
+display: inline-block; 
+position: relative; 
+} 
+
+.topmenu > li > a { 
+font-family: 'Comic Sans MS', cursive; 
+font-size: 20px; 
+background: rgba(240, 91, 222, 0.5); 
+color: #aa0db5; 
+
+line-height: 70px; 
+padding:0 30px; 
+height: 70px; 
+
+position: relative; 
+display: block; 
+} 
+
+.topmenu li a:hover { 
+color:#fac8e5; 
+background: rgba(84, 11, 186, 0.7); 
+text-decoration: none; 
+display: block; 
+} 
+
+.submenu { 
+background: rgba(161, 15, 168, 0.5); 
+border: 2px dotted #ed47cf; 
+
+width: 200px; 
+
+position: absolute; 
+display: none; 
+z-index: 5; 
+} 
+
+.topmenu li:hover .submenu, .submenu li:hover .subsubmenu { 
+display:block; 
+} 
+
+.submenu li a { 
+font-family: 'Courier New', monospace; 
+font-size: 17px; 
+font-weight: bold; 
+
+color: #272C2C; 
+
+line-height: 30px; 
+padding: 0 25px; 
+} 
+
+.subsubmenu { 
+background: rgba(41, 196, 193,.5); 
+border: 2px solid #173076; 
+position: absolute; 
+margin-left: 200px; 
+margin-top:-31px; 
+display: none; 
+
+width:200px; 
+z-index: 5; 
+}
+
+.topmenu li:hover .submenu, .submenu li:hover .subsubmenu { 
+display:block; 
+} 
+
+.submenu li a { 
+
+font-family: 'Courier New', monospace; 
+font-size: 17px; 
+font-weight: bold; 
+
+color: #b50bb2; 
+
+line-height: 30px; 
+padding: 0 25px; 
+} 
+
+.subsubmenu { 
+background: rgba(252, 192, 233, 0.5); 
+border: 2px solid #e820e1; 
+position: absolute; 
+margin-left: 200px; 
+margin-top:-31px; 
+display: none; 
+
+width:200px; 
+z-index: 5; 
+}
+
+.textblock{
+	margin-left: 1%;
+	margin-top: 50px;
+	width: 48%;
+	float: left;
+	position: relative;
+}
+.textblock h1{
+	font-family: Georgia, Times New Roman, Times, fantasy;
+	font-size: 25pt;
+	text-align: center;
+}
+.img1{
+	width: 25%;
+	float: left;
+	margin-top: 50px;
+}	
+
+.banner{
+	width: 25%;
+	float: right;
+}
+.banner div{
+	width: 100%;
+	height: auto;
+}
+.img2{
+	margin-top: 50px;
+}
+.img3{
+	margin-top: 70px;
+}
+.img4{
+	margin-top: 60px;
+}
+.footer{
+	position: fixed;
+	bottom: 0%;
+	right: 0%;
+}
+.textblock{
+	color: #64156b;
+}
