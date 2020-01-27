@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\irbis\\Downloads\\Home-Work-Web-master\\Home-Work-Web-master\\Seventh HomeWork\\Seventh HomeWork\\Seventh HomeWork.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\irbis\\Downloads\\Home-Work-Web-master\\Home-Work-Web-master\\Seventh HomeWork\\Seventh HomeWork\\Seventh HomeWork.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\irbis\\Downloads\\Home-Work-Web-master\\Home-Work-Web-master\\Seventh HomeWork\\Seventh HomeWork\\Seventh HomeWork.csproj",
+        "projectName": "Seventh HomeWork",
+        "projectPath": "C:\\Users\\irbis\\Downloads\\Home-Work-Web-master\\Home-Work-Web-master\\Seventh HomeWork\\Seventh HomeWork\\Seventh HomeWork.csproj",
+        "packagesPath": "C:\\Users\\irbis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\irbis\\Downloads\\Home-Work-Web-master\\Home-Work-Web-master\\Seventh HomeWork\\Seventh HomeWork\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\irbis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x86",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
